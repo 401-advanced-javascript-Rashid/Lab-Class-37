@@ -7,7 +7,7 @@
 ### Links and Resources
 
 - [submission PR](https://github.com/401-advanced-javascript-Rashid/Lab-Class-37/pull/1)
-- [front-end application]()
+- [front-end application](https://401-advanced-javascript-rashid.github.io/Lab-Class-37/)
 
 ### Setup
 
