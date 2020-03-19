@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  background-size: 210vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(https://www.mwallpapers.com/download-image/34588/2560x1440);
+}

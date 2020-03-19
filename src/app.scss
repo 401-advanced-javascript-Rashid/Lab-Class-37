@@ -1,0 +1,249 @@
+
+#root{
+    margin: 0;
+}
+
+.header{
+    width: 100vw;
+    height: 80px;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.52);
+    box-shadow: 5px 10px 8px #000000;
+
+}
+
+.inner_header{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container h1 {
+    color: rgb(255, 255, 255);
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.logo_container h1 span{
+    font-weight: 800;
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+
+.li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: rgba(255, 255, 255, 0.582);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    transition: 300ms;
+ cursor: pointer;
+}
+
+.li:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 50px rgb(255, 255, 255);
+    transition: 300ms;
+    cursor: pointer;
+
+}
+
+#h1 {
+    animation: text-flicker 3s linear infinite;
+  }
+  
+  .offset {
+    animation: letter-flicker 4s linear infinite;
+    
+  }
+  
+  @keyframes text-flicker {
+    0% {
+      opacity:0.1;
+      text-shadow: 0px 0px 70px rgb(255, 255, 255);
+    }
+    
+    2% {
+      opacity:1;
+      text-shadow: 0px 0px 70px rgb(255, 255, 255);
+    }
+    8% {
+      opacity:0.1;
+      text-shadow: 0px 0px 70px rgb(255, 255, 255);
+    }
+    9% {
+      opacity:1;
+      text-shadow: 0px 0px 70px rgb(255, 255, 255);
+    }
+    12% {
+      opacity:0.1;
+      text-shadow: 0px 0px  rgb(255, 255, 255);
+    }
+    20% {
+      opacity:1;
+      text-shadow: 0px 0px 70px rgb(255, 255, 255);
+    }
+    25% {
+      opacity:0.3;
+      text-shadow: 0px 0px 70px rgb(255, 255, 255)
+    }
+    30% {
+      opacity:1;
+      text-shadow: 0px 0px 70px rgb(255, 255, 255)
+    }
+    
+    70% {
+      opacity:0.7;
+      text-shadow: 0px 0px 70px rgb(255, 255, 255)
+    }
+    
+    72% {
+      opacity:0.2;
+      text-shadow:0px 0px 70px rgb(255, 255, 255)
+    }
+    
+    77% {
+      opacity:.9;
+      text-shadow: 0px 0px 70px rgb(255, 255, 255)
+    }
+    100% {
+      opacity:.9;
+      text-shadow: 0px 0px 70px rgb(255, 255, 255)
+    }
+  }
+  
+  @keyframes letter-flicker {
+    0% {
+      opacity:0.1;
+      text-shadow: 0px 0px 70px rgb(255, 255, 255)
+    }
+    2% {
+      opacity:0.1;
+      text-shadow:0px 0px 70px rgb(255, 255, 255)
+    }
+    4% {
+      opacity:1;
+      text-shadow: 0px 0px 70px rgb(255, 255, 255)
+    }
+    
+    
+    19% {
+      opacity:1;
+      text-shadow: 0px 0px 70px rgb(255, 255, 255)
+    }
+    21% {
+      opacity:0.1;
+      text-shadow: 0px 0px 70px rgb(255, 255, 255)
+    }
+    23% {
+      opacity:1;
+      text-shadow: 0px 0px 70px rgb(255, 255, 255)
+    }
+    
+    80% {
+      opacity:1;
+      text-shadow: 0px 0px 70px rgb(255, 255, 255)
+    }
+    83% {
+      opacity:0.4;
+      text-shadow: 0px 0px 70px rgb(255, 255, 255)
+    }
+    87% {
+      opacity:1;
+      text-shadow: 0px 0px 70px rgb(255, 255, 255)
+    }
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.card{
+  margin-top: 20px;
+  max-width: 30%;
+  margin-left: 20px;
+  background-color: rgba(77, 77, 77, 0.733);
+
+  height: auto;
+  color: rgb(0, 0, 0);
+  box-shadow: 5px 10px 8px #000000;
+  text-align: center;
+  
+ font-size: 19px;
+ font-weight: 800;
+}
+
+.card_in{
+    background-color: rgba(241, 226, 255, 0.322);
+cursor: pointer;
+}
+
+.navigation2{
+    height: 100%;
+    display: table;
+    float: right;
+    padding: 0px 20px;
+}
+a {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: rgb(255, 145, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+
+.rss{
+    margin-top: 20px;
+    padding: 15px 50px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    border: rgba(0, 0, 0, 0);
+  }
+  
+.rss:hover{
+    color: #818181;
+    background: #ffffff;
+    box-shadow: 0 0 10px #cccccc, 0 0 40px #e4e4e4, 0 0 80px #f1f1f1
+  }
+
+  footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.459);
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 97%;
+
+    box-shadow: 0px 5px 10px 8px #000000;
+  }
